@@ -5,7 +5,7 @@
 ### A Case Study of NeRF, Nerfacto, and 3D Gaussian Splatting
 
 This project conducts a comprehensive comparative analysis of three landmark Novel View Synthesis (NVS) technologies, representing purely implicit (classic NeRF), hybrid (Nerfacto), and purely explicit (3D Gaussian Splatting) paradigms. Using 162 real-world photographs of a potted plant, we evaluate each method on quantitative metrics, qualitative visual fidelity, and computational efficiency.
-
+The dataset is available at:https://drive.google.com/file/d/1VxeCt0EPmkTyrtdfQNWJWVJcPpwpN4jA/view?usp=drive_link
 -----
 
 ## Abstract
