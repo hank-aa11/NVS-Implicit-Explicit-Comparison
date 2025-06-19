@@ -18,12 +18,12 @@ ns-train nerfacto \
     nerfstudio-data \
     --downscale-factor 1
 
-渲染环绕视频
+nerfacto渲染视频
 ns-render spiral \
     --load-config /mnt/data/jichuan/outputs/my_3d_project2/nerfacto/2025-06-18_035930/config.yml \
     --output-path /mnt/data/jichuan/outputs/my_3d_project2/nerfacto/renders/my_video.mp4
 
-定量评估
+nerfacto定量评估
 ns-eval \
     --load-config /mnt/data/jichuan/outputs/my_3d_project2/nerfacto/2025-06-18_035930/config.yml \
     --output-path /mnt/data/jichuan/outputs/my_3d_project2/nerfacto/results/my_eval_metrics.json
