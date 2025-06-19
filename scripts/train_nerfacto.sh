@@ -8,7 +8,7 @@ conda install -c conda-forge ffmpeg -
 数据处理
 ns-process-data images --data /mnt/data/jichuan/my_3d_project2/images --output-dir /mnt/data/jichuan/my_3d_project2 
 
-模型训练
+nerfacto训练模型
 ns-train nerfacto \
     --data /mnt/data/jichuan/my_3d_project2 \
     --max-num-iterations 30000 \
