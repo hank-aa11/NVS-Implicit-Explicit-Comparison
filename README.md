@@ -181,4 +181,11 @@ cd gaussian-splatting
 
 # Train the model (assuming processed data is in 'data/my_project_processed')
 python train.py -s data/my_project_processed -m output/plant_model --iterations 30000 --eval
+
+# Render video
+python render.py -m /mnt/data/jichuan/my_3d_project3/model_output_final_1
+
+# Quantitative evaluation
+python metrics.py -m /mnt/data/jichuan/my_3d_project3/model_output_final_1
 ```
+
